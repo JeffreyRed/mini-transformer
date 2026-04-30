@@ -1,0 +1,13 @@
+name: mini-transformer
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch>=2.0.0
+  - cpuonly                  # remove and add pytorch-cuda=12.1 for GPU
+  - matplotlib>=3.7.0
+  - numpy>=1.24.0
+  - pillow>=9.0.0
+  - pip
