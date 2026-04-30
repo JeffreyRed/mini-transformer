@@ -1,6 +1,6 @@
 # Theory & Code Walkthrough — mini-transformer
 
-> Step 3 of the mini-LLM series. Prerequisite: [mini-self-attention](../mini-self-attention).
+> Step 3 of the mini-LLM series. Prerequisite: [mini-self-attention](https://github.com/JeffreyRed/mini-self-attention).
 
 ---
 
@@ -86,6 +86,7 @@ position 3:  [ 0.141, -0.990,  0.296,  0.955, ... ]
 The `outputs/positional_encoding.png` plot shows this matrix directly —
 each row is the vector added to the token at that position.
 
+![attention_heatmap](outputs/positional_encoding.png)
 ---
 
 ## 3. The causal mask
@@ -270,6 +271,7 @@ as if it had to choose uniformly among `N` words at each step.
 Perplexity is reported alongside loss in the training loop and plotted on
 a twin-axis chart in `outputs/loss_perplexity.png`.
 
+![loss_perplexity](outputs/loss_perplexity.png)
 ---
 
 ## 9. Text generation — greedy, temperature, top-k

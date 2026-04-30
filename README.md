@@ -13,8 +13,8 @@
 
 | Step | Repository | What it builds |
 |------|-----------|----------------|
-| 1 | [mini-embedding](../mini-embedding) | Word vectors — Skip-gram Word2Vec |
-| 2 | [mini-self-attention](../mini-self-attention) | Multi-head self-attention encoder block |
+| 1 | [mini-embedding](https://github.com/JeffreyRed/mini-embedding) | Word vectors — Skip-gram Word2Vec |
+| 2 | [mini-self-attention](https://github.com/JeffreyRed/mini-self-attention) | Multi-head self-attention encoder block |
 | **3** | **mini-transformer** ← you are here | Positional encoding + stacked causal decoder |
 | 4 | mini-gpt _(coming)_ | Full next-token language model on real text |
 
@@ -179,6 +179,11 @@ python main.py
 | `attention_all_layers.png` | All heads × all layers for `INSPECT_SENTENCE` |
 | `loss_perplexity.png` | Training loss + perplexity on twin axes |
 | `attention_animation.gif` | Layer 1, Head 0 attention evolving during training |
+
+![positional_encoding](outputs/positional_encoding.png)
+![attention_all_layers](outputs/attention_all_layers.png)
+![loss_perplexity](outputs/loss_perplexity.png)
+![attention_animation](outputs/attention_animation.gif)
 
 ---
 
