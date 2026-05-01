@@ -16,7 +16,7 @@
 | 1 | [mini-embedding](https://github.com/JeffreyRed/mini-embedding) | Word vectors — Skip-gram Word2Vec |
 | 2 | [mini-self-attention](https://github.com/JeffreyRed/mini-self-attention) | Multi-head self-attention encoder block |
 | **3** | **mini-transformer** ← you are here | Positional encoding + stacked causal decoder |
-| 4 | mini-gpt _(coming)_ | Full next-token language model on real text |
+| 4 | [mini-gpt](https://github.com/JeffreyRed/mini-gpt) | Full next-token language model on real text |
 
 > **Prerequisite:** familiarity with steps 1 and 2. Each repo is self-contained and runnable independently.
 
