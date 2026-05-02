@@ -17,6 +17,9 @@
 | 2 | [mini-self-attention](https://github.com/JeffreyRed/mini-self-attention) | Multi-head self-attention encoder block |
 | **3** | **mini-transformer** ← you are here | Positional encoding + stacked causal decoder |
 | 4 | [mini-gpt](https://github.com/JeffreyRed/mini-gpt) | Full next-token language model on real text |
+| 5 | [mini-chat](https://github.com/JeffreyRed/mini-chat) | Full LM on real text — overfitting, generation, evaluation |
+| 6 | [mini-cross-attention](https://github.com/JeffreyRed/mini-cross-attention) | Cross-attention module, source↔target alignment |
+| 7 | [mini-translator](https://github.com/JeffreyRed/mini-translator) | English→Spanish encoder-decoder with cross-attention |
 
 > **Prerequisite:** familiarity with steps 1 and 2. Each repo is self-contained and runnable independently.
 
